@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Arjit Kumar 👋</h1>
-<h3 align="center">AWS Cloud & DevOps Engineer | Cloud Infrastructure | CI/CD | Application Deployment</h3>
+<h3 align="center">Cloud & DevOps Engineer | Multi-Cloud (AWS · Azure · GCP) | CI/CD | Kubernetes | IaC</h3>
 
 <p align="center">
   <a href="mailto:arjit.kumar.dev@gmail.com"><img src="https://img.shields.io/badge/Email-arjit.kumar.dev%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" /></a>
@@ -11,21 +11,26 @@
 
 ### 🚀 About Me
 
-AWS Certified Cloud Practitioner with hands-on experience designing, deploying, and managing scalable, highly available cloud infrastructure on AWS. Skilled in multi-tier application deployment, lift-and-shift migration, cloud-native re-architecture, CI/CD pipeline implementation, and infrastructure automation using Infrastructure as Code.
+AWS Certified Cloud Practitioner with hands-on experience designing, deploying, and managing scalable, highly available cloud infrastructure, primarily on AWS with working exposure to **Microsoft Azure** and **Google Cloud Platform (GCP)**. Skilled in multi-tier application deployment, lift-and-shift migration, cloud-native re-architecture, CI/CD pipeline implementation, and infrastructure automation using Infrastructure as Code — with hands-on practice orchestrating containerized workloads using **Docker and Kubernetes**.
 
-Strong foundation in Linux system administration, DevOps best practices, cloud security, monitoring, and high-availability architecture design. Currently pursuing **AWS Solutions Architect** and **AWS Developer Associate** certifications to deepen cloud architecture expertise.
+Comfortable working across **GitOps**-driven delivery workflows and configuration management with **Ansible** to keep infrastructure consistent and auditable. Strong foundation in Linux system administration, DevOps best practices, cloud security, monitoring, and high-availability architecture design. Currently pursuing **AWS Solutions Architect** and **AWS Developer Associate** certifications to deepen cloud architecture expertise.
 
 ---
 
 ### 🧩 Core Competencies
 
-`Cloud Infrastructure Design` `CI/CD Pipeline Automation` `Infrastructure as Code` `Application Migration & Modernization` `High Availability & Auto Scaling` `Cloud Security & Monitoring` `Container Orchestration` `Linux System Administration`
+`Multi-Cloud Infrastructure (AWS, Azure, GCP)` `Cloud Infrastructure Design` `CI/CD Pipeline Automation` `GitOps Workflows` `Infrastructure as Code` `Configuration Management (Ansible)` `Container Orchestration (Kubernetes, Docker)` `Application Migration & Modernization` `High Availability & Auto Scaling` `Cloud Security & Monitoring` `Linux System Administration`
 
 ---
 
 ### 🛠️ Technical Skills
 
-**☁️ AWS Cloud**
+**☁️ Cloud Platforms**
+<p>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=FF9900"/>
+<img src="https://img.shields.io/badge/Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white"/>
+</p>
 <p>
 <img src="https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazonec2&logoColor=white"/>
 <img src="https://img.shields.io/badge/S3-569A31?style=flat&logo=amazons3&logoColor=white"/>
@@ -41,12 +46,20 @@ Strong foundation in Linux system administration, DevOps best practices, cloud s
 <img src="https://img.shields.io/badge/CloudFront-8C4FFF?style=flat&logo=amazonaws&logoColor=white"/>
 </p>
 
-**⚙️ DevOps & CI/CD**
+**📦 Container & Orchestration**
 <p>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white"/>
+<img src="https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white"/>
+</p>
+
+**⚙️ DevOps & CI/CD**
+<p>
 <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat&logo=gitlab&logoColor=white"/>
+<img src="https://img.shields.io/badge/ArgoCD%20%2F%20GitOps-EF7B4D?style=flat&logo=argo&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white"/>
 <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white"/>
 <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=flat&logo=sonarqube&logoColor=white"/>
 <img src="https://img.shields.io/badge/Nexus-1B1B1B?style=flat&logo=sonatype&logoColor=white"/>
@@ -99,17 +112,18 @@ Strong foundation in Linux system administration, DevOps best practices, cloud s
 - Implemented Auto Scaling Groups to **improve availability and fault tolerance** under variable load.
 
 #### 🔧 CI/CD Pipeline Implementation with Jenkins
-`Jenkins` `SonarQube` `Nexus` `Trivy` `Maven` `Docker`
+`Jenkins` `SonarQube` `Nexus` `Trivy` `Maven` `Docker` `Kubernetes` `GitOps (ArgoCD)`
 - Built an end-to-end CI/CD pipeline automating build, test, artifact storage, and deployment — **accelerating release velocity**.
 - Integrated SonarQube quality gates to catch defects pre-deployment.
 - Implemented Trivy vulnerability scanning to strengthen the software supply chain.
-- Automated Docker image build/deploy workflows, **reducing manual release effort**.
+- Automated Docker image build workflows and containerized delivery to Kubernetes using GitOps principles (ArgoCD-style declarative sync), **reducing manual release effort**.
 
 #### 🏗️ Resilient & Scalable Web Application Deployment on AWS
-`EC2` `ALB` `ASG` `EFS` `Route 53` `CloudWatch`
+`EC2` `ALB` `ASG` `EFS` `Route 53` `CloudWatch` `Ansible`
 - Designed a highly available, multi-AZ infrastructure to **eliminate single points of failure**.
 - Configured ALB and ASG for dynamic, demand-based scaling.
 - Integrated Amazon EFS for shared, persistent storage across EC2 instances.
+- Used Ansible playbooks to automate server configuration across EC2 fleets, ensuring consistent, repeatable environments.
 - Implemented CloudWatch monitoring/alerting for **proactive incident response**.
 
 ---
